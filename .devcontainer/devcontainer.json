@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  },
+  "onCreateCommand": "bash -i scripts/install.sh",
+  "updateContentCommand": "pip install -r requirements.txt"
+}
